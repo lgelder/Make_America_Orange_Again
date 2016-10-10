@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+
+    "name": "Make America Orange Again!",
+    
+    "description": "Tired of reading Donald Trump's name everywhere? Spice up your life with some of The Angry Cheeto's many nicknames!",
+    
+    "version": "1.0",
+    
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "js": [
+                "content.js",
+                "config.json"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+
+    "web_accessible_resources": ["config.json"] ,
+
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ]
+}
