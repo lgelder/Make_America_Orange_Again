@@ -2,9 +2,9 @@
 // and http://www.thehypertexts.com/Donald%20Trump%20Nicknames.htm
 
 var app = {
-    theBestRegex: /(donald)(\s+)([j\.\s]*|john\s*)(trump)/i,
-    theNicknameRegex: /(donald)(\s+)([j\.\s]*|john\s*)(".+?")(\s+)(trump)/i,
-    theDonaldRegex: /(donald)([\s])*/i,
+    theBestRegex: /(donald|president|president-elect)(\s+)([j\.\s]*|john\s*)(trump)/i,
+    theNicknameRegex: /(donald|president|president-elect)(\s+)([j\.\s]*|john\s*)(".+?")(\s+)(trump)/i,
+    theDonaldRegex: /(donald|president|president-elect)([\s])*/i,
     theJRegex: /(j|john\s*)/i,
     theTrumpRegex: /^([\s])*(trump)/i,
     theUrlRegex: /(https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,})/,

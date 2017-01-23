@@ -3,9 +3,9 @@
 
     "name": "Make America Orange Again!",
     
-    "description": "Tired of reading Donald Trump's name everywhere? Spice up your life with some of The Angry Cheeto's many nicknames!",
+    "description": "Tired of reading Donald Trump's name everywhere? Do yourself a favor, install this.",
     
-    "version": "1.0",
+    "version": "1.2",
     
     "content_scripts": [
         {
